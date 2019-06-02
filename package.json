@@ -1,0 +1,10 @@
+{
+    "main": "斐波那契.ts",
+    "dependencies": {
+        "nodemon": "^1.19.1",
+        "typescript": "^3.5.1"
+    },
+    "scripts": {
+        "start": "nodemon 斐波那契.js"
+    }
+}
