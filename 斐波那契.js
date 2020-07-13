@@ -1,5 +1,9 @@
 var bigInt = require("./BigInteger.js");
 function getfbnq(num) {
+  let cached = feibonq[num];
+  if (typeof cached !== "undefined") {
+    return cached;
+  }
   num = Math.floor(num);
   num = bigInt(num);
   for (let e = feibonq.length; e <= num; e++) {
